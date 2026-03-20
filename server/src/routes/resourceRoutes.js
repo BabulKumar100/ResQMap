@@ -3,7 +3,7 @@ const router = express.Router();
 const db = require("../config/db");
 
 // import cache helpers
-const { getCache, setCache } = require("../../../utils/cache");
+const { getCache, setCache } = require("../utils/cache");
 
 // GET nearby resources
 router.get("/resources", async (req, res) => {
